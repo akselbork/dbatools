@@ -9,7 +9,7 @@ function Get-RandomPassword {
         Group1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
         Group2 = 'abcdefghijklmnopqrstuvwxyz'
         Group3 = '1234567890'
-        Group4 = '!#$%&()*+,-./:;<=>?[\]^_{|}~'
+        Group4 = '!#%&()*+,-./:;<=>?[\]^_{|}~'
     }
     $pwdPool = @()
     # get at least one of each symbols
